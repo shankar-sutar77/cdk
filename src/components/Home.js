@@ -57,6 +57,7 @@ class Home extends React.Component {
         Accept: "application/json",
         "Content-Type": "application/json",
       },
+      body: JSON.stringify(this.state)
     };
 
     let url = "http://localhost";
